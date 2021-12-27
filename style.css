@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/wallpaper.png);
+}
+
+.container {
+    background: white;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background: #b3cc00;
+}
+
+.navbar img {
+    width: 200px;
+    height: 70px;
+
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 25px 20px;
+    float: right;
+}
+
+.navbar a:hover {
+    color: red;
+    text-decoration-line: underline;
+}
+
+.seperate {
+    padding: 8px;
+    padding-top: 5px;
+    display: flex;
+    text-align: justify;
+}
+
+.seperate h1 {
+    line-height: 65px;
+}
+
+.seperate .left-side:first-child {
+    flex: 2;
+}
+
+.seperate .right-side:last-child {
+    flex: 3;
+}
+
+.left-side {
+    padding: 10px;
+}
+
+.right-side {
+    padding: 10px;
+}
+
+.right-side ul {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.right-side img {
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-top: 2px;
+    width: 280px;
+    height: 160px;
+    float: left;
+}
+
+.seperate button {
+    float: right;
+    padding: 15px;
+    margin-top: 20px;
+    background: #b3cc00;
+    border: none;    
+}
+
+button a:hover {
+    color: red;
+    text-decoration-line: underline;
+}
+
+.seperate a {
+    color: white;
+    text-decoration: none;
+}
+
+.seperate p {
+    font-family: verdana;
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
